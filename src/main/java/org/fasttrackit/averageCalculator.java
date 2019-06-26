@@ -5,7 +5,7 @@ package org.fasttrackit;
  * Hello world!
  *
  */
-public class App {
+public class averageCalculator {
 
 
         public double displayAverage(int no1, int no2, int no3) {
@@ -20,7 +20,11 @@ return average;
 
         public static void main ( String[] args )
         {
-            App App = new App();
+            averageCalculator App = new averageCalculator();
             App.displayAverage(1, 4, 7);        }
+
+
+
+
 
     }
