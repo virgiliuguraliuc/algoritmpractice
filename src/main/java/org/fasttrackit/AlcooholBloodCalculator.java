@@ -32,9 +32,10 @@ public class AlcooholBloodCalculator {
         System.out.println("How long ago in hours have you stoped drinking:  ");
         H=s.nextInt();
 
+        System.out.println("Are you male or female? type 'f' for female any for male.");
         String r=s.next();
 
-        String gender = input.next();
+       // String gender = input.next();
         if (r.equals ("f")) {
             double R = 0.66;
             double Alcoolfemale = (A*5.14 / W *R) - (0.015 *H);
