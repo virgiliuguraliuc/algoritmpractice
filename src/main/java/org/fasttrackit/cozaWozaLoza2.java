@@ -16,7 +16,7 @@ public class cozaWozaLoza2 {
             } else if (number % 7 == 0) {
                 text = "Loza";
             }
-
+//
             else{
         //            System.out.print(i + " ");
 
