@@ -3,12 +3,12 @@ package org.fasttrackit;
 public class cozaWozaLoza2 {
 
     private void printNumbersLine(int startingNumber) {
-        for (int i = 1; i <= 11; i++) {
+        for (int i = 0; i <= 11; i++) {
             int number = startingNumber + i;
-            String text = number + i + "";
+            String text = (number + i) + "";
 
             if (number % 3 == 0 && number % 5 == 0) {
-                text = "CozaLoza";
+                text = "CozaWoza";
             } else if (number % 3 == 0) {
                 text = "coza";
             } else if (number % 5 == 0) {
@@ -18,12 +18,12 @@ public class cozaWozaLoza2 {
             }
 
             else{
-                    System.out.print(i + " ");
+        //            System.out.print(i + " ");
 
                 }
 
 
-                System.out.println(text + " ");
+                System.out.print(text + " ");
             }
             System.out.println(" ");
 
