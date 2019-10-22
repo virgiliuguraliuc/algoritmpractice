@@ -21,7 +21,7 @@ public class SortingRecords {
     //    Comparator<String> lastNameComparator = Comparator.comparing(Record::getLastName); // fix me
   //  records.sort(lastNameComparator);
 
-        System.out.println(records);
+        System.out.println(records.toString());
 
 
     }
